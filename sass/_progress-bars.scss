@@ -1,0 +1,41 @@
+.small-progress-bar {
+	.progress{
+		height: 6px !important;
+	}
+}
+.medium-progress-bar {
+	.progress{
+		height: 12px !important;
+	}
+}
+.large-progress-bar {
+	.progress{
+		height: 18px !important;
+	}
+}
+
+.knob-progressbar-heading{
+	text-align:center;
+	font-weight:bold;
+}
+.skills_details_block {
+	.heading{
+		font-weight:bold;
+	}
+}
+.skill-set{
+	ul{
+		list-style:none;
+		li{
+			display:inline-block;
+			text-decoration:none;
+			margin:2px;
+			padding:10px;
+			border:1px solid #CFCFCF;
+			
+		}
+	}
+}
+.knob-block{
+	
+}

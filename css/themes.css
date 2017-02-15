@@ -1,0 +1,63 @@
+.theme-panel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    z-index: 9999;
+}
+
+.theme-panel .toggler a {
+    background-color: #3f4f62 !important;
+    margin: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    float: right;
+}
+
+.theme-panel .theme-option-block {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    background-color: #3f4f62 !important;
+    width: 300px;
+    height: 200px;
+}
+
+.theme-panel .theme-option-block .theme-option-heading {
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.theme-panel .theme-option-block .theme-option-heading span {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.theme-panel .theme-option-block .theme-option-heading .theme-option-close {
+    color: #FFFFFF;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.theme-panel .theme-option-block .theme-option-heading .theme-option-close i {
+    font-size: 1.5em;
+}
+
+.theme-panel ul.theme-colors-list {
+    display: inline-block;
+    list-style: none;
+}
+
+.theme-panel ul.theme-colors-list li {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.theme-panel ul.theme-colors-list li a {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}

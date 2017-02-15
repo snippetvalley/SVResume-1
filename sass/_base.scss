@@ -1,0 +1,403 @@
+html{
+	-webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:hover,
+*:focus,
+*:active {
+    outline: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+html,body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+
+}
+body{
+	background-color:$default-body-background-color;
+	color: #3d4451;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+.shadow-block{
+	 
+	 border-radius: 2px;
+	 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	 margin:10px;
+	 padding:10px;
+	 background-color:$shawdowboxBgColor;
+}
+.main-wrapper{
+	margin-top:5%;
+}
+.clear{
+	clear:both;
+}
+.hello-badge{
+	color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    display: inline-block;
+    padding: 7px 12px;
+    text-transform: uppercase;
+    position: relative;
+}
+.hr-line{
+	margin:5px;
+	border:1px solid #CFCFCF;
+}
+.profile{
+	margin:15px;
+	padding:15px;
+	color: #3d4451;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dedede;
+	.profile-photo{
+		
+		width:150px;
+		margin:0px auto;
+	}
+	.profile-photo img{
+		width:150px;
+		height:150px;
+	}
+
+}
+
+
+.profile-details{
+	ul{
+		
+	    list-style: none;
+		li{
+			text-decoration:none;
+			margin:10px;
+			padding:5px;
+			.about-field{
+				display: block;
+			    width:50%;
+			    float: left;
+			    color: #333333;
+			    font-size: 12px;
+			    font-weight: bold;
+			    line-height: 20px;
+			    text-transform: uppercase;
+			}
+			.about-info{
+				display: block;
+			    margin-left: 50%;
+			    font-size: 15px;
+			    font-weight: 400;
+			    line-height: 20px;
+			    color: #9da0a7
+			}
+		}
+	}
+
+	
+}
+.social-networks{
+	height:50px;
+	text-align:center;
+	margin:0px !important;
+	padding:0px !important;
+}
+
+
+/* Standard Icons code Social media */ 
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+.social-network a {
+ background-color: transparent;   
+}
+
+/* end footer social icons */
+
+/*
+	Arranging theme color for those application.
+
+*/
+@mixin background-color($color) {
+	-webkit-background-color: $color;
+     -moz-background-color: $color;
+      -ms-background-color: $color;
+          background-color: $color;
+}
+@mixin font-color($color) {
+	-webkit-color: $color;
+     -moz-color: $color;
+      -ms-color: $color;
+          color: $color;
+}
+.fa-side-icons{
+	font-size:1.5em;
+}
+
+.information-block{
+	
+	.icons_block{
+		width:80px;
+		display:inline-block;
+		float:left;
+		text-align:center;
+		height:100%;
+		margin-left:-15px;
+		ul{
+			display:inline;
+			list-style: none;
+	
+			margin-left:0 !important;
+			padding: 0;
+
+			li{
+				margin: 15px 15px;
+				a{
+					
+					color:#CFCFCF;
+
+					display:inline-block;
+					position:relative;
+					margin:0 auto 0 auto;
+					-moz-border-radius:50%;
+					-webkit-border-radius:50%;
+					border-radius:50%;
+					text-align:center;
+					width: 50px;
+					height: 50px;
+					font-size:20px;
+					i{
+						    margin: 0;
+						    line-height: 50px;
+						    text-align: center;
+					}
+				}
+			}
+		}
+	}
+	.information-content{
+		margin-top:-2px;
+		margin-left:80px;
+		.content-block{
+		  -vendor-animation-duration: 5s;
+		  -vendor-animation-delay: 2s;
+		  -vendor-animation-iteration-count: infinite;
+
+			display:none;
+			h2{
+				text-align:center;
+			}
+			p{
+				margin:10px;
+				padding:10px;
+				text-align:justify;
+			}
+		}
+		.active{
+			display:block;
+		}
+	}
+	
+}
+.skills_details_block{
+	margin:10px;
+	padding:10px;	
+}
+
+.knob-progressbar {
+    background: #ccc;
+    border-radius: 50%;
+}
+@for $i from 1 through length($themeColors) {
+    $color: nth($themeColors, $i);
+    .theme-#{$i} {
+    	
+    	.hello-badge{
+    		@include background-color($color);
+    	}
+    	::-moz-selection { /* Code for Firefox */
+		    @include background-color($color);
+		    @include font-color($whiteBgColor);
+		}
+
+		::selection {
+		    @include background-color($color);
+		    @include font-color($whiteBgColor);
+		}
+		::-webkit-selection {
+		    @include background-color($color);
+		    @include font-color($whiteBgColor);
+		}
+		.social-networks{
+			
+			@include background-color($color);
+		}
+		.icons_block{
+			a:hover{
+				@include background-color($color);
+				@include font-color($whiteBgColor);
+				border-color: none;
+
+			}
+			a.active{
+				@include background-color($color);
+				@include font-color($whiteBgColor);
+				border-color: none;
+			}
+		}
+		.progress{
+			.progress-bar{
+				 @include background-color($color);
+			}
+		}
+		.progress{
+			/* @include background-color($color * 2.7);*/
+		}
+		.skill-set{
+			ul{
+				li:hover{
+					@include background-color($color);
+					@include font-color($whiteBgColor);
+					
+				}
+			}
+		}
+		#ribbon-container a {
+			@include background-color($color);
+		}
+		#ribbon-container a:before { 
+			border-top: 29px solid $color; 
+			border-bottom: 29px solid $color; 
+		}
+		#ribbon-container a:after {
+			border-top: 15px solid $color; 
+		}
+
+		/* Blog Container */ 
+		figure.portfolio-container figcaption{
+			@include background-color($color);
+		}
+
+		.post-slide .post-link li a:hover {
+		    @include font-color($color);
+		}
+		.post-slide .month {
+			@include background-color($color);
+		}
+		.post-slide .post-title a:hover {
+			@include font-color($color);
+		}
+		.post-slide .read-more:hover {
+			@include font-color($color);
+		}
+		.post-slide .read-more:after {
+			border: 1px solid $color;
+		}
+		.btn-theme{
+			    @include background-color($color);
+				@include font-color($whiteBgColor);
+		}
+		.FlowupLabels .fl_wrap.focused .fl_label{
+			@include font-color($color);
+		}
+		.information-heading label{
+			border-bottom:3px solid $color;
+			
+		}
+
+
+
+    }
+    
+}

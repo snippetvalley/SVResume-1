@@ -1,0 +1,30 @@
+{
+  "name": "svsresume1",
+  "version": "1.0.0",
+  "description": "SVResume is simple,powerfull,resposnive template built on Bootstrap.",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssbeautify": "^0.1.3",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no "
+  },
+  "keywords": [
+    "resume",
+    "bootstrap",
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "Vamsi Krishna Depuri",
+  "license": "MIT"
+}

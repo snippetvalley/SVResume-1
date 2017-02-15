@@ -1,0 +1,80 @@
+figure.portfolio-container {
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin:30px;
+}
+
+figure.portfolio-container * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+figure.portfolio-container img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+figure.portfolio-container figcaption .icons{
+    text-align:center;
+}
+
+figure.portfolio-container figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 4px solid rgba(255, 255, 255, 0.05);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: 0 0%;
+  -ms-transform-origin: 0 0%;
+  transform-origin: 0 0%;
+}
+
+figure.portfolio-container h2,
+figure.portfolio-container p {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+figure.portfolio-container h2 {
+  
+  display: inline-block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+figure.portfolio-container p {
+  padding: 8px 0 15px;
+}
+
+figure.portfolio-container a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+figure.portfolio-container:hover > img,
+figure.portfolio-container.hover > img {
+  opacity: 0.2;
+}
+
+figure.portfolio-container:hover figcaption,
+figure.portfolio-container.hover figcaption {
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
