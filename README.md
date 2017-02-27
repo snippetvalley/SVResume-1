@@ -21,10 +21,10 @@ To change theme, click on ⚙ icon.
 To customize, knob plugin, then change code in js/app.js
 
 $(".knob-progressbar").knob(
-      {
-        readOnly: true,
-        fgColor: bgColor
+{
+    readOnly: true,
+    fgColor: bgColor
         
-      });
+});
 
 
